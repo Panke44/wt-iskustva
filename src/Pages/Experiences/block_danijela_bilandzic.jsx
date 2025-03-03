@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar'
+import Footer from '../../Components/Footer'
 
-const block_danijela_bilandzic = () => {
+const 
+block_danijela_bilandzic = () => {
     return (
         <>
             <Navbar/>
@@ -133,7 +135,7 @@ const block_danijela_bilandzic = () => {
 
                 </div>
             </div>
-
+<Footer></Footer>
         </>
     )
 }
