@@ -21,15 +21,15 @@ const Footer = () => {
 
                     <ul className="nav__ul">
                         <li>
-                            <a href="#">Veb sajt</a>
+                            <a href="/">Veb sajt</a>
                         </li>
 
                         <li>
-                            <a href="#">YouTube</a>
+                            <a href="/">YouTube</a>
                         </li>
 
                         <li>
-                            <a href="#">Spotify</a>
+                            <a href="/">Spotify</a>
                         </li>
                     </ul>
                 </li>
@@ -39,15 +39,15 @@ const Footer = () => {
 
                     <ul className="nav__ul nav__ul--extra">
                         <li>
-                            <a href="#">Work & Travel USA</a>
+                            <a href="/">Work & Travel USA</a>
                         </li>
 
                         <li>
-                            <a href="#">Au Pair USA</a>
+                            <a href="/">Au Pair USA</a>
                         </li>
 
                         <li>
-                            <a href="#">Internship/Trainee</a>
+                            <a href="/">Internship/Trainee</a>
                         </li>
 
                     </ul>
@@ -58,15 +58,15 @@ const Footer = () => {
 
                     <ul className="nav__ul">
                         <li>
-                            <a href="#">Politika privatnosti</a>
+                            <a href="/">Politika privatnosti</a>
                         </li>
 
                         <li>
-                            <a href="#">Uslovi korišćenja</a>
+                            <a href="/">Uslovi korišćenja</a>
                         </li>
 
                         <li>
-                            <a href="#">Sitemap</a>
+                            <a href="/">Sitemap</a>
                         </li>
                     </ul>
                 </li>
