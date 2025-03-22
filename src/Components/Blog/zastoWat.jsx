@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
-const zastoWat = () => {
+const ZastoWat = () => {
   return (
     <>
       <Navbar/>
@@ -92,4 +92,4 @@ const zastoWat = () => {
   )
 }
 
-export default zastoWat
+export default ZastoWat
