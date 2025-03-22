@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router'
 import FilterMenu from '../Components/FilterMenu'
 import SingleExperience from '../Components/SingleExperience'
 import Navbar from '../Components/Navbar'
+
 
 const Experiences = () => {
   return (
@@ -22,10 +24,7 @@ const Experiences = () => {
             </ul>
           </div>
           <div class="review-wrapper">
-            <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" href="/blockisland/milos-panic" />
-            <SingleExperience img="" name="Danijela Bilandžić" position="Food Runner" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" href="/blockisland/danijela-bilandzic" />
-            <SingleExperience />
-            <SingleExperience />
+            <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
           </div>
         </div>
 
