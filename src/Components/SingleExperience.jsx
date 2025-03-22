@@ -2,7 +2,7 @@ import React from 'react'
 
 const SingleExperience = (props) => {
   return (
-    <a href={props.href} className="review-card-link">
+    // <a href={props.href} className="review-card-link">
     <div className="review-card">
         <div className="review-img">
             <img src={props.img} alt=""/>
@@ -22,7 +22,7 @@ const SingleExperience = (props) => {
             <p>{props.year}.</p>
         </div>
     </div>
-</a>
+// </a>
 
   )
 }

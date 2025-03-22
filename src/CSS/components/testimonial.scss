@@ -70,7 +70,7 @@ sort-menu button:active {
     transition: 0.3s ease;
 }
 
-.review-card:hover{
+.review-card:hover {
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     transform: scale(1.01);
@@ -174,7 +174,7 @@ sort-menu button:active {
     justify-content: space-between;
 }
 
-.experience-card{
+.experience-card {
     width: 80%;
     /* padding: 20px; */
     margin: 20px auto;
@@ -206,4 +206,74 @@ hr {
 .experience-body h2 {
     text-align: left;
     margin: 20px 0px 0px 0px;
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .navbar-desktop {
+        display: none;
+    }
+
+    .review-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .review-card {
+        display: block;
+        margin: 10px;
+        height: auto;
+        padding-right: 0px;
+
+        .review-img {
+            width: 100%;
+        }
+
+        .experience-status {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            margin-top: 20px;
+            // padding: 20px;
+
+            * {
+                margin: 0px 10px;
+            }
+        }
+    }
+
+    // Single Experience
+
+    .single-experience-wrapper {
+        width: 100%;
+
+        .experience-card{
+            width: 100%;
+            margin: 10px auto;
+        }
+
+        .basic-info{
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            margin: 10px;
+
+            .info-holder{
+                margin-left: 10px;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .experience-card{
+        width: 95%;
+
+        .experience-header, .experience-body{
+            margin: 0px 10px;
+        }
+    }
 }

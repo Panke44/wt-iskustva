@@ -1,0 +1,260 @@
+.sort-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sort-menu h3 {
+  margin: 0px 10px 0px 0px;
+}
+
+.sort-menu ul {
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+  margin: 0px 0px 15px 0px;
+}
+
+.sort-menu ul li {
+  display: inline;
+}
+
+.sort-menu button {
+  padding: 7px 10px;
+  margin: 0px 5px;
+  font-size: 15px;
+  color: #016ace;
+  background-color: white;
+  border: 2px solid #016ace;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.sort-menu button:hover,
+sort-menu button:active {
+  background-color: #016ace;
+  color: white;
+}
+
+.review-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  /* padding: 20px 0px; */
+  width: 1150px;
+  margin: auto;
+  /* outline: 1px solid #e03c32; */
+}
+
+.review-card-link {
+  text-decoration: none !important;
+}
+
+.review-card {
+  /* color: #565656; */
+  color: black;
+  border: 0.5px solid black;
+  background-color: white;
+  border-radius: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+  overflow: hidden;
+  display: flex;
+  transition: 0.3s ease;
+}
+
+.review-card:hover {
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: scale(1.01);
+}
+
+.review-info {
+  margin: 0px 25px;
+  width: 250px;
+}
+
+.review-info-text i {
+  width: 18px;
+}
+
+.review-img {
+  width: 150px;
+}
+
+.review-img img {
+  width: 100%;
+}
+
+.review-info h4 {
+  margin: 10px 0px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.review-info-text p {
+  margin: 10px 0px 0px 0px;
+  font-weight: 400;
+}
+
+.experience-status {
+  width: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.experience-status span {
+  padding: 5px 10px;
+}
+
+.pozitivno {
+  /* background-color: #64bf6a; */
+  /* background-color: #7bb662; */
+  background-color: #338333;
+  color: white;
+}
+
+.negativno {
+  background-color: #e03c32;
+  color: white;
+}
+
+.neutralno {
+  /* background-color: #ffd301; */
+  background-color: #e7b416;
+  color: white;
+}
+
+.experience-status p {
+  margin: 5px;
+  text-align: right;
+}
+
+/* SINGLE EXPERIENCE */
+/* *{outline:1px solid #338333;} */
+.single-experience-wrapper .basic-info {
+  overflow: hidden;
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.single-experience-wrapper .basic-info img {
+  width: 300px;
+}
+
+.single-experience-wrapper .basic-info .info-holder {
+  margin-left: 40px;
+}
+
+.single-experience-wrapper .basic-info .info-holder p {
+  font-size: 20px;
+  margin: 7px 0px;
+  display: block;
+}
+
+/* JOBS */
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-card {
+  width: 80%;
+  /* padding: 20px; */
+  margin: 20px auto;
+  height: auto;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.experience-header,
+.experience-body {
+  margin: 0px 20px;
+}
+
+.experience-card h1 {
+  margin: 20px 0px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.experience-body p {
+  text-align: left;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+.experience-body h2 {
+  text-align: left;
+  margin: 20px 0px 0px 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .navbar-desktop {
+    display: none;
+  }
+  .review-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .review-card {
+    display: block;
+    margin: 10px;
+    height: auto;
+    padding-right: 0px;
+  }
+  .review-card .review-img {
+    width: 100%;
+  }
+  .review-card .experience-status {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+  }
+  .review-card .experience-status * {
+    margin: 0px 10px;
+  }
+  .single-experience-wrapper {
+    width: 100%;
+  }
+  .single-experience-wrapper .experience-card {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .single-experience-wrapper .basic-info {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px;
+  }
+  .single-experience-wrapper .basic-info .info-holder {
+    margin-left: 10px;
+  }
+  .single-experience-wrapper img {
+    width: 100%;
+  }
+  .experience-card {
+    width: 95%;
+  }
+  .experience-card .experience-header, .experience-card .experience-body {
+    margin: 0px 10px;
+  }
+}

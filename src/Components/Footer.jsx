@@ -3,6 +3,19 @@ import { Link } from 'react-router'
 
 const Footer = () => {
     return (
+
+        <div className='bottom-container'>
+        <div className="bottom-navbar">
+            <Link to="https://mojaamerika.com/" target='_blank' > Podkast </Link>
+            <Link to="/kontakt"> Kontakt </Link>
+            <Link to="/kontakt"> Pošalji iskustvo </Link>
+        </div>
+
+        <div className="bottom-copyright">
+            &copy; {new Date().getFullYear()} WAT Iskustva. Sva prava zadržana. 
+        </div>
+    </div>
+
         // <footer className="footer">
         //     <div className="footer__addr">
         //         <h1 className="footer__logo">Wat iskustva</h1>
@@ -73,17 +86,7 @@ const Footer = () => {
         //         </li>
         //     </ul>
 
-        <div className='bottom-container'>
-        <div className="bottom-navbar">
-            <Link to="https://mojaamerika.com/" target='_blank' > Podkast </Link>
-            <Link to="/epizode"> Sve epizode </Link>
-            <Link to="https://watiskustva.com/" target='_blank' rel="noopener"> WAT Iskustva </Link>
-        </div>
 
-        <div className="bottom-copyright">
-            &copy; {new Date().getFullYear()} WAT Iskustva. Sva prava zadržana. 
-        </div>
-    </div>
 
         // </footer>
     )
