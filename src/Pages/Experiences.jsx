@@ -25,9 +25,10 @@ const Experiences = () => {
           </div>
           <div class="review-wrapper">
             <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
-            <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
-            <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
-            <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
+            <Link to="/blockisland/danijela-bilandzic"> <SingleExperience img={require("../Images/Experiences/block_danijela_bilandzic.jpeg")} name="Danijela Bilandžić" position="Food runner" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
+            <Link to="/blockisland/anja-mihajlovic"> <SingleExperience img={require("../Images/Experiences/block_anja_mihajlovic.jpeg")} name="Anja Mihajlović" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
+            <Link to="/blockisland/lucija-grgic"> <SingleExperience img={require("../Images/Experiences/block_lucija_grgic.jpeg")} name="Lucija Grgić" position="Busser" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
+            {/* <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link> */}
           </div>
         </div>
 

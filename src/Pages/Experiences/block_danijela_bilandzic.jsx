@@ -9,7 +9,7 @@ block_danijela_bilandzic = () => {
             <Navbar/>
             <div className="single-experience-wrapper">
                 <div className="basic-info">
-                    <img src="img/placeholder-square.jpg" alt="" />
+                <img src={require("../../Images/Experiences/block_danijela_bilandzic.jpeg")} alt="" />
 
                     <div className="info-holder">
                         <h1>Danijela Bilandžić</h1>
