@@ -25,6 +25,9 @@ const Experiences = () => {
           </div>
           <div class="review-wrapper">
             <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
+            <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
+            <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
+            <Link to="/blockisland/milos-panic"> <SingleExperience img={require("../Images/Experiences/block_milos_panic.jpg")} name="Miloš Panić" position="Barista" employer="Block Island Beach Hosuse" location="Block Island" status="pozitivno" year="2024" /> </Link>
           </div>
         </div>
 

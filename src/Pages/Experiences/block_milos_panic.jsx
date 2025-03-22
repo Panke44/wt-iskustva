@@ -31,7 +31,7 @@ const block_milos_panic = () => {
                 </div>
 
                 <div className="experience-body">
-                    <p> <b> Poslodavac: </b> <a href="#"> Block Island Beach House </a> </p>
+                    <p> <b> Poslodavac: </b> Block Island Beach House </p>
                     <p> <b> Pozicija: </b> Barista </p>
                     <p> <b> Satnica: </b> $13 + tips </p>
                     <p> <b> Prosečan broj sati: </b> 40h nedeljno </p>

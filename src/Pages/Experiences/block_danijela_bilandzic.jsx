@@ -31,7 +31,7 @@ block_danijela_bilandzic = () => {
                 </div>
 
                 <div className="experience-body">
-                    <p> <b> Poslodavac: </b> <a href="#"> Block Island Beach House </a> </p>
+                    <p> <b> Poslodavac: </b> Block Island Beach House </p>
                     <p> <b> Pozicija: </b> Food Runner </p>
                     <p> <b> Satnica: </b> $8 + tips </p>
                     <p> <b> Prosečan broj sati: </b> 40h tjedno </p>

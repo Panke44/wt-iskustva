@@ -34,7 +34,7 @@ const Home = () => {
             <div class="card-holder">
       
 
-              <a href="" class="card">
+              {/* <a href="" class="card">
                 <img src={require("../Images/locations/city/los_angeles.png")} alt="" />
               </a>
 
@@ -48,7 +48,7 @@ const Home = () => {
 
               <a href="" class="card">
                 <img src={require("../Images/locations/city/las_vegas.png")} alt="" />
-              </a>
+              </a> */}
 
    
             </div>
@@ -59,7 +59,7 @@ const Home = () => {
         <div class="wrapper">
           <div class="card-holder">
 
-            <a href="" class="card">
+            {/* <a href="" class="card">
                 <img src={require("../Images/locations/block_island.jpg")} alt="" />
               </a>
 
@@ -73,7 +73,7 @@ const Home = () => {
 
               <a href="" class="card">
                 <img src={require("../Images/locations/mackinac_island.jpg")} alt="" />
-              </a>
+              </a> */}
           </div>
         </div>
       </div>
