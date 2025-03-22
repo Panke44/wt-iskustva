@@ -15,7 +15,7 @@ const zastoWat = () => {
           <p>Piše: Mihajlo Panitć | Objavljeno: 22/3/2025 </p>
         {/* <p>22/3/2025</p> */}
         </div>
-        <img src={require("../Images/Blog/blog.jpg")} alt="" />
+        <img src={require("../../Images/Blog/blog.jpg")} alt="" />
         <p>
           Na korak ste od pravljenja najbolje odluke u svom životu, work and travel je mnogim ljudima, pa i nama, značajno promenio život i način razmišljanja. Velika je stvar uraditi ovako nešto, koliko god jednostavno izgledalo sa svim programima i pomoćnim sredstvima koja su danas dostupna. Razloga za prijavu je mnogo, a mi ćemo sada preći preko najznačajnijih.
         </p>
