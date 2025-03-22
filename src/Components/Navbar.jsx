@@ -8,7 +8,13 @@ export const Navbar = () => {
     <ul>
         <li> <a href="/"> Početna </a> </li>
         <li> <a href="/iskustva"> Iskustva </a> </li>
-        <li> <a href="/agencije"> Kontakt </a> </li>
+        <li> <a href="/blog"> Blog </a> </li>
+        <li> <a href="/kontakt"> Kontakt </a> </li>
+    </ul>
+
+    <ul>
+
+    <a href="/aaa" class="button-exp"> Pošalji iskustvo </a>
     </ul>
 </nav>
 

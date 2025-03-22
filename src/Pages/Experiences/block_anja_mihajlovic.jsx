@@ -45,7 +45,7 @@ const block_anja_mihajlovic = () => {
                     <p>Idealna poziciju za usavršavanje jezika, razvijanja sposobnosti multi-taskinga, rješavanja
                         problema i različitih zahtjeva gostiju, razvijanje vještina rada u timu.</p>
 
-                    <h2>Negative sides:</h2>
+                    <h2>Negativne strane posla:</h2>
                     <p>Povremeni neprijatni gosti, dosta fizički zahtjevno dosta stajanja, i kao food runner pješačenja,
                         takodje tacna na kojoj se odnosi hrana je dosta glomazna i teška, radno vrijeme je nezgodno
                         rano počinjanje/rad do kasno.</p>
@@ -75,7 +75,7 @@ const block_anja_mihajlovic = () => {
                     <p>Idealna poziciju za usavršavanje jezika, razvijanja sposobnosti multi-taskinga, rješavanja
                         problema i različitih zahtjeva gostiju, razvijanje vještina rada u timu.</p>
 
-                    <h2>Negative sides:</h2>
+                    <h2>Negativne strane posla:</h2>
                     <p>Povremeni neprijatni gosti, dosta fizički zahtjevno dosta stajanja, i kao food runner pješačenja,
                         takodje tacna na kojoj se odnosi hrana je dosta glomazna i teška, radno vrijeme je nezgodno
                         rano počinjanje/rad do kasno.</p>
@@ -94,7 +94,7 @@ const block_anja_mihajlovic = () => {
                     <p> <b> Adresa: </b> 56 Dodge Street </p>
                     <p> <b> Cena: </b> $125 / nedeljno </p>
 
-                    <p>Smještaj je bio odličan, unatoč većem broju osoba u jednoj sobi (kod mene 7 cura),
+                    <p>Smještaj je bio odličan, uprkos većem broju osoba u jednoj sobi (kod mene 7 cura),
                         sobe su bile ugodne i dovoljne za potrebe sezonskog smještaja. Najveća prednost je blizina radnog mjesta.</p>
 
                 </div>
@@ -112,7 +112,7 @@ const block_anja_mihajlovic = () => {
                 <div className="experience-body">
                     <h2>Slobodno vreme i aktivnosti:</h2>
                     <p>
-                        Plaže- Posjetiti plaže kao što su Crescent plaza ili Ballards, prelijepi zalasci sunca, idealno za
+                        Plaže - Posjetiti plaže kao što su Crescent plaza ili Ballards, prelijepi zalasci sunca, idealno za
                         kupanje i sunčanje kao i održavanje piknika. Vožnja biciklom ili hiking-Veoma popularne staze
                         kao što su Clay Head Trail ili staze koje prolaze kroz Block Island National Wildlife Refuge.
                         Kayaking ili paddleboarding, kao i posmatranje ptica.
@@ -149,7 +149,7 @@ const block_anja_mihajlovic = () => {
                     <hr />
 
                     <h2> Opis putovanja: </h2>
-                    <p> Snovi postaju stvarnost. </p>
+                    <p> Neizostavan dio programa, svako putovanje te čini bogatijom osobom. </p>
 
                 </div>
             </div>

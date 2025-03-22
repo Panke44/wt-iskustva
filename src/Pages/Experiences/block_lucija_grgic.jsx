@@ -9,7 +9,7 @@ const
                 <Navbar />
                 <div className="single-experience-wrapper">
                     <div className="basic-info">
-                        <img src={require("../../Images/Experiences/block_danijela_bilandzic.jpeg")} alt="" />
+                        <img src={require("../../Images/Experiences/block_lucija_grgic.jpeg")} alt="" />
 
                         <div className="info-holder">
                             <h1>Lucija Grgić</h1>
@@ -41,14 +41,10 @@ const
                         <p> Rad u restoranu, čišćenje stolova nakon gostiju, održavanje čistoće restorana i beach bara. </p>
 
                         <h2>Pozitivne strane posla:</h2>
-                        <p>- restoran ima najljepši pogled na cijelom otoku
-                            - rad s mladom ekipom koja je uvijek spremna pomoći
-                            - poslodavcima ne smeta ako radimo drugi posao i lako se dogovoriti s njima oko smjena
-                            - dinamičan posao </p>
+                        <p>- restoran ima najljepši pogled na cijelom otoku, rad s mladom ekipom koja je uvijek spremna pomoći, poslodavcima ne smeta ako radimo drugi posao i lako se dogovoriti s njima oko smjena, dinamičan posao. </p>
 
-                        <h2>Negative sides:</h2>
-                        <p> - uključen je samo jedan obrok dnevno kojeg poslužuju već u 11h
-                            -  bacanje smeća od cijelog hotela na kraju smjene zna biti dosta fizički naporno</p>
+                        <h2>Negativne strane posla:</h2>
+                        <p> Uključen je samo jedan obrok dnevno kojeg poslužuju već u 11h, bacanje smeća od cijelog hotela na kraju smjene zna biti dosta fizički naporno</p>
                     </div>
                 </div>
 
@@ -71,12 +67,9 @@ const
                         <p> Primanje rezervacija, dovođenje gostiju do stola. </p>
 
                         <h2>Pozitivne strane posla:</h2>
-                        <p> - jednostavan posao
-                            - smjena traje 5 sati, a uključena su dva besplatna obroka i piće nakon smjene
-                            - dobra radna atmosfera
-                            - odličan poslodavac koji cijeni svoje radnike </p>
+                        <p> Jednostavan posao, smjena traje 5 sati, a uključena su dva besplatna obroka i piće nakon smjene, dobra radna atmosfera, odličan poslodavac koji cijeni svoje radnike </p>
 
-                        <h2>Negative sides:</h2>
+                        <h2>Negativne strane posla:</h2>
                         <p> Jako rijetko primaju J1 studente </p>
                     </div>
                 </div>
@@ -108,19 +101,15 @@ const
 
                     <div className="experience-body">
                         <h2>Slobodno vreme i aktivnosti:</h2>
-                        <p>
-                            - sunčanje na plaži
-                            - izlasci: disco monday i balkan party
-                            - istraživanje otoka
-                            - okupljanje s drugim j1 studentima oko bonfire-a
+                        <p> Sunčanje na plaži, izlasci: disco monday i balkan party, istraživanje otoka, okupljanje s drugim j1 studentima oko bonfire-a
                         </p>
 
                         <h2>Pozitivne strane:</h2>
-                        <p> - predivna priroda, malo mjesto pa je sve blizu, otok je jako siguran 
+                        <p> Predivna priroda, malo mjesto pa je sve blizu, otok je jako siguran 
                         </p>
 
                         <h2>Negativne strane:</h2>
-                        <p>- visoke cijene, sezona prestaje već početkom 9.mjeseca </p>
+                        <p> Visoke cijene, sezona prestaje već početkom 9.mjeseca </p>
 
                     </div>
 

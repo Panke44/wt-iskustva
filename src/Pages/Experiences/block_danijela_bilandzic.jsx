@@ -45,7 +45,7 @@ block_danijela_bilandzic = () => {
                     <p>Timski rad, komunikacija s gostima restorana, mogućnost dogovora s kolegama vezano uz
                         raspodjelu obaveza i dužnosti u kuhinji.</p>
 
-                    <h2>Negative sides:</h2>
+                    <h2>Negativne strane posla:</h2>
                     <p>Fizički i mentalno naporan posao, zahtjeva koordinirani rad čitavog osoblja u kuhinji.</p>
                 </div>
             </div>
