@@ -5,7 +5,7 @@ import Experiences from './Pages/Experiences';
 import Error404 from './Pages/Error404';
 
 import Blog from './Pages/Blog';
-import ZastoWat from './Components/Blog/ZastoWat';
+import ZastoWat from './Components/Blog/zastoWat';
 
 import MilosPanic from './Pages/Experiences/block_milos_panic';
 import DanijelaBilandzic from './Pages/Experiences/block_danijela_bilandzic';
