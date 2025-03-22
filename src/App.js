@@ -5,7 +5,7 @@ import Experiences from './Pages/Experiences';
 import Error404 from './Pages/Error404';
 
 import Blog from './Pages/Blog';
-import ZastoWat from './Components/Blog/ZastoWat';
+import ZastoWT from './Components/Blog/ZastoWT';
 
 import MilosPanic from './Pages/Experiences/block_milos_panic';
 import DanijelaBilandzic from './Pages/Experiences/block_danijela_bilandzic';
@@ -24,7 +24,7 @@ function App() {
         <Route path="*" element={<Error404/>} />
         
         <Route path="/blog" element={<Blog/>} />
-        <Route path="/zasto-work-and-travel" element={<ZastoWat/>} />
+        <Route path="/zasto-work-and-travel" element={<ZastoWT/>} />
         
 
         <Route path="/blockisland/milos-panic" element={<MilosPanic/>} />
