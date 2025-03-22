@@ -22,6 +22,7 @@ function App() {
         <Route path="*" element={<Error404/>} />
         
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/zasto-work-and-travel" element={<Blog/>} />
 
         <Route path="/blockisland/milos-panic" element={<MilosPanic/>} />
         <Route path="/blockisland/danijela-bilandzic" element={<DanijelaBilandzic/>} />

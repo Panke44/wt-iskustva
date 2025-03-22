@@ -83,3 +83,46 @@
   top: 0;
   border-radius: 10px;
 }
+
+.button-blog {
+  align-items: center;
+  display: block;
+  margin: auto;
+  width: 100px;
+  background-color: #06f;
+  border: 2px solid #06f;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  fill: #000;
+  margin-bottom: 20px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  border-radius: 10px;
+  outline: 0;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-blog:focus {
+  color: #171e29;
+}
+
+.button-blog:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+.button-blog:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}

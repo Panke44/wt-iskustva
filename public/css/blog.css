@@ -11,3 +11,38 @@
 .blog p {
   text-align: justify;
 }
+
+.blog .blog-writter img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.blog-card-holder {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog-card-holder .blog-card {
+  border-radius: 20px;
+  width: 350px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.3s ease;
+  flex-basis: 25%;
+}
+.blog-card-holder .blog-card:hover {
+  transform: translateY(-10px);
+}
+.blog-card-holder .blog-img {
+  width: 100%;
+}
+.blog-card-holder .blog-header {
+  padding: 0px 10px;
+}
+.blog-card-holder .blog-text {
+  padding: 0px 10px;
+}

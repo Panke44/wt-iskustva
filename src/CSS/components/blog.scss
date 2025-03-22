@@ -11,3 +11,47 @@
 .blog p{
     text-align: justify;
 }
+
+.blog .blog-writter img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+// Article
+
+.blog-card-holder{
+    margin-top: 25px;
+    // max-width: 750px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-card-holder{
+
+    .blog-card{
+        border-radius: 20px;
+        width: 350px;
+        // height: 450px;
+        // margin: 0px 10px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        transition: 0.3s ease;
+        flex-basis: 25%;
+
+
+        &:hover{
+            transform: translateY(-10px);
+        }
+    }
+
+    .blog-img{
+        width: 100%;
+    }
+
+    .blog-header{padding: 0px 10px;}
+    .blog-text{padding: 0px 10px;}
+}
+
