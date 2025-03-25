@@ -12,12 +12,13 @@ const block_milos_panic = () => {
                     <img src={require("../../Images/Experiences/block_milos_panic.jpg")} alt="" />
 
                     <div className="info-holder">
-                        <h1>Miloš Panić</h1>
+                    <div className="participant-name">
+                        <h1>Miloš Panić</h1> <img src={require("../../Images/flags/rs.png")} alt="" />
+                        </div>
                         <p> <b>Agencija:</b> Experience </p>
                         <p> <b>Lokacija:</b> Block Island, Rhode Island </p>
                         <p> <b>Sezona:</b> 2024 </p>
                         <p> <b>Sponzor:</b> Dynamic Global Exchange </p>
-                        <p> <b>Viza:</b> Beograd, Srbija </p>
                     </div>
                 </div>
             </div>
@@ -37,13 +38,13 @@ const block_milos_panic = () => {
                     <p> <b> Prosečan broj sati: </b> 40h nedeljno </p>
                     <p> <b> Zadovoljstvo zaradom:</b> Da </p>
                     <hr />
-                    <h2> Opis posla: </h2>
+                    <h2> Opis posla </h2>
                     <p> Priprema pića, usluživanje gostiju, održavanje higijene i rad na kasi. </p>
 
-                    <h2>Pozitivne strane posla:</h2>
+                    <h2>Pozitivne strane posla</h2>
                     <p>Posao barista omogućava usavršavanje veština kao što su multitasking, timski rad i rešavanje problema. Takođe, radom se stiče dobro poznavanje kafe i gastronomije.</p>
 
-                    <h2>Negative sides:</h2>
+                    <h2>Negativne strane posla</h2>
                     <p>Fizički zahtevan posao, povremeno neprijatni gosti, rano ili kasno radno vreme.</p>
                 </div>
             </div>
@@ -62,7 +63,7 @@ const block_milos_panic = () => {
 
                     <p>Tokom mog boravka, smeštaj je daleko nadmašio moja očekivanja. Ljubazno su me dočekali
                         domaćini zbog kojih sam se osećao kao kod kuće. Soba je bila savršeno čista, moderno uređena i
-                        opremljen svim potrebnim stvarima - od brzog interneta do udobnog kreveta.</p>
+                        opremljen svim potrebnim stvarima - od brzog interneta do čistog kupatila i udobnog kreveta.</p>
 
                 </div>
 
@@ -84,12 +85,15 @@ const block_milos_panic = () => {
                     </p>
 
                     <h2>Pozitivne strane:</h2>
-                    <p>The island is known for its enchanting beaches, rocky cliffs and preserved nature.
-                        Mohegan Bluffs offers incredible panoramic views of the ocean, and the cliffs are popular with visitors.
+                    <p>
+                        Vrlo popularna destinacija za dnevne posetioce iz priobalnih gradova, ostrvo je vrlo bezbedno i bez kriminala,
+                        zajednica J1 studenata je mala i jaka. Porodično ostrvo.
                     </p>
 
                     <h2>Negativne strane:</h2>
-                    <p>Visoki troškovi hrane i pića, nedostatak raznovrsnih aktivnosti tokom kišnih dana, ograničen javni prevoz.</p>
+                    <p>Visoki troškovi hrane i pića, nedostatak raznovrsnih aktivnosti tokom kišnih dana, ograničen javni prevoz.
+                        Posle 15. septembra slabo ima posla i trajekti zbog lošeg vremena mogu biti otkazani što može poremetiti planove za putovanja.
+                    </p>
 
                 </div>
 
@@ -97,7 +101,7 @@ const block_milos_panic = () => {
 
             <div className="experience-card">
                 <div className="experience-header">
-                    <h1> Putovanaja: </h1>
+                    <h1> Putovanja </h1>
                     <div className="experience-status">
                         <span className="pozitivno"> Pozitivno </span>
                     </div>
@@ -110,15 +114,17 @@ const block_milos_panic = () => {
 
                     <hr />
 
-                    <h2> Opis putovanja: </h2>
-                    <p> amazing </p>
+                    <h2> Opis putovanja </h2>
+                    <p> Pune tri nedelje na putu. Savršena ekipa i jako dobra organizacija. Los Anđeles me je razočarao
+                        ali se Njujorku i Havajima rado vraćam.
+                        </p>
 
                 </div>
             </div>
 
             <div className="experience-card">
                 <div className="experience-header">
-                    <h1> Poruka budućim učesnicima programa: </h1>
+                    <h1> Poruka budućim učesnicima programa </h1>
                 </div>
 
                 <div className="experience-body">

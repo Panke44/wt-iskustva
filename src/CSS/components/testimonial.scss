@@ -144,13 +144,25 @@ sort-menu button:active {
 /* *{outline:1px solid #338333;} */
 .single-experience-wrapper .basic-info {
     overflow: hidden;
-    width: 80%;
+    max-width: 1200px;
     margin: 20px auto;
     display: flex;
 
     border: 0.5px solid black;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.single-experience-wrapper .basic-info .participant-name{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    img{
+        width: 40px;
+        margin-left: 10px;
+        border: 0.5px solid black;
+    }
 }
 
 .single-experience-wrapper .basic-info img {
@@ -175,7 +187,7 @@ sort-menu button:active {
 }
 
 .experience-card {
-    width: 80%;
+    max-width: 1200px;
     /* padding: 20px; */
     margin: 20px auto;
     height: auto;
@@ -251,6 +263,7 @@ hr {
         .experience-card{
             width: 100%;
             margin: 10px auto;
+
         }
 
         .basic-info{
@@ -274,6 +287,14 @@ hr {
 
         .experience-header, .experience-body{
             margin: 0px 10px;
+            
+            h1{font-size: 28px;}
+            h2{font-size: 22px;}
+            p{font-size: 18px;}
+        }
+
+        .experience-header{
+            height: auto;
         }
     }
 }

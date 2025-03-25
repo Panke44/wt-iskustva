@@ -11,12 +11,13 @@ const block_mila_kragic = () => {
                     <img src={require("../../Images/Experiences/block_mila_kragic.png")} alt="" />
 
                     <div className="info-holder">
-                        <h1>Mila Kragić</h1>
+                    <div className="participant-name">
+                                <h1>Mila Kragić</h1> <img src={require("../../Images/flags/rs.png")} alt="" />
+                            </div>
                         <p> <b>Agencija:</b> Experience Work & Travel </p>
                         <p> <b>Lokacija:</b> Block Island, Rhode Island </p>
                         <p> <b>Sezona:</b> 2024 </p>
                         <p> <b>Sponzor:</b> WISE </p>
-                        <p> <b>Viza:</b> Beograd, Srbija </p>
                     </div>
                 </div>
             </div>

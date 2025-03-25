@@ -12,12 +12,13 @@ const
                         <img src={require("../../Images/Experiences/block_lucija_grgic.jpeg")} alt="" />
 
                         <div className="info-holder">
-                            <h1>Lucija Grgić</h1>
+                        <div className="participant-name">
+                                <h1>Lucija Grgić</h1> <img src={require("../../Images/flags/hr.png")} alt="" />
+                            </div>
                             <p> <b>Agencija:</b> Sunčana Vura </p>
                             <p> <b>Lokacija:</b> Block Island, Rhode Island </p>
                             <p> <b>Sezona:</b> 2024 </p>
                             <p> <b>Sponzor:</b> Dynamic Global Exchange </p>
-                            <p> <b>Viza:</b> Zagreb, Hrvatska </p>
                         </div>
                     </div>
                 </div>

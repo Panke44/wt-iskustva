@@ -11,12 +11,13 @@ const block_anja_mihajlovic = () => {
                     <img src={require("../../Images/Experiences/block_anja_mihajlovic.jpeg")} alt="" />
 
                     <div className="info-holder">
-                        <h1>Anja Mihajlović</h1>
+                    <div className="participant-name">
+                                <h1>Anja Mihajlović</h1> <img src={require("../../Images/flags/me.png")} alt="" />
+                            </div>
                         <p> <b>Agencija:</b> Inspirit Montenegro </p>
                         <p> <b>Lokacija:</b> Block Island, Rhode Island </p>
                         <p> <b>Sezona:</b> 2024 </p>
                         <p> <b>Sponzor:</b> Dynamic Global Exchange </p>
-                        <p> <b>Viza:</b> Podgorica, Crna Gora </p>
                     </div>
                 </div>
             </div>
